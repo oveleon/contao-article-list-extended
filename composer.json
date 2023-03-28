@@ -1,0 +1,42 @@
+{
+    "name": "oveleon/contao-article-list-extended",
+    "type": "contao-bundle",
+    "authors": [
+        {
+            "name": "Oveleon",
+            "homepage": "https://oveleon.de/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "contao/core-bundle": "^4.13"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.3.1"
+    },
+    "conflict": {
+        "contao/core": "*",
+        "contao/manager-plugin": "<2.0 || >=3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oveleon\\ContaoArticleListExtended\\": "src/"
+        },
+        "classmap": [
+            "contao/"
+        ],
+        "exclude-from-classmap": [
+            "contao/config/",
+            "contao/dca/",
+            "contao/languages/",
+            "contao/templates/"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0.x-dev"
+        },
+        "contao-manager-plugin": "Oveleon\\ContaoArticleListExtended\\ContaoManager\\Plugin"
+    }
+}

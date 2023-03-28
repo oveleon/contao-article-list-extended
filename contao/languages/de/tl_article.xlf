@@ -1,0 +1,14 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="contao/languages/en/tl_article.php" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="tl_article.hideInArticleList.0">
+        <source>Hide in article list</source>
+        <target>In Artikelliste verstecken</target>
+      </trans-unit>
+      <trans-unit id="tl_article.hideInArticleList.1">
+        <source>Hides this article in the module &lt;em&gt;Article list&lt;/em&gt;.</source>
+        <target>Diesen Artikel im Modul &lt;em&gt;Artikelliste&lt;/em&gt; nicht anzeigen.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
